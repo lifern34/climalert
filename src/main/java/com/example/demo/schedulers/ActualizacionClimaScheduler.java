@@ -5,10 +5,10 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ActualizacionTemporalScheduler {
+public class ActualizacionClimaScheduler {
     private final ClimaService climaService;
 
-    public ActualizacionTemporalScheduler(ClimaService climaService) {
+    public ActualizacionClimaScheduler(ClimaService climaService) {
         this.climaService = climaService;
     }
 
